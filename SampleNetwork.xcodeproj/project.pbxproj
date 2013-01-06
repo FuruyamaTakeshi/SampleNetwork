@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A43F9F6A1692DEAF007F63F3 /* RCHttpOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A43F9F691692DEAF007F63F3 /* RCHttpOperation.m */; };
+		A43F9F7C16941E35007F63F3 /* RCRunloopOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A43F9F7B16941E34007F63F3 /* RCRunloopOperation.m */; };
+		A43F9F8716980EBF007F63F3 /* RCAPIOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A43F9F8616980EBF007F63F3 /* RCAPIOperation.m */; };
+		A43F9F8A1699590B007F63F3 /* RCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A43F9F891699590A007F63F3 /* RCPerson.m */; };
 		A4770C48168E6DE700C80827 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4770C47168E6DE700C80827 /* UIKit.framework */; };
 		A4770C4A168E6DE700C80827 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4770C49168E6DE700C80827 /* Foundation.framework */; };
 		A4770C4C168E6DE700C80827 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4770C4B168E6DE700C80827 /* CoreGraphics.framework */; };
@@ -18,9 +22,22 @@
 		A4770C5E168E6DE700C80827 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4770C5D168E6DE700C80827 /* Default-568h@2x.png */; };
 		A4770C61168E6DE700C80827 /* RCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4770C60168E6DE700C80827 /* RCViewController.m */; };
 		A4770C64168E6DE700C80827 /* RCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4770C62168E6DE700C80827 /* RCViewController.xib */; };
+		A4770C6C168E6E3500C80827 /* RCNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4770C6B168E6E3400C80827 /* RCNetworkManager.m */; };
+		A4770C70168E6F8200C80827 /* RCNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = A4770C6F168E6F8100C80827 /* RCNetworkService.m */; };
+		A4770C73168E731900C80827 /* RCNetworkServiceAsyncHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = A4770C72168E731900C80827 /* RCNetworkServiceAsyncHTTP.m */; };
+		A4770C76168EB16700C80827 /* RCNetworkServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A4770C75168EB16700C80827 /* RCNetworkServiceFactory.m */; };
+		A4770C7D168EB57E00C80827 /* RCUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = A4770C7C168EB57D00C80827 /* RCUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A43F9F681692DEAF007F63F3 /* RCHttpOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCHttpOperation.h; path = Network/RCHttpOperation.h; sourceTree = "<group>"; };
+		A43F9F691692DEAF007F63F3 /* RCHttpOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCHttpOperation.m; path = Network/RCHttpOperation.m; sourceTree = "<group>"; };
+		A43F9F7A16941E34007F63F3 /* RCRunloopOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCRunloopOperation.h; path = Network/RCRunloopOperation.h; sourceTree = "<group>"; };
+		A43F9F7B16941E34007F63F3 /* RCRunloopOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCRunloopOperation.m; path = Network/RCRunloopOperation.m; sourceTree = "<group>"; };
+		A43F9F8516980EBE007F63F3 /* RCAPIOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCAPIOperation.h; path = Network/RCAPIOperation.h; sourceTree = "<group>"; };
+		A43F9F8616980EBF007F63F3 /* RCAPIOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCAPIOperation.m; path = Network/RCAPIOperation.m; sourceTree = "<group>"; };
+		A43F9F8816995909007F63F3 /* RCPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCPerson.h; path = Model/RCPerson.h; sourceTree = "<group>"; };
+		A43F9F891699590A007F63F3 /* RCPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCPerson.m; path = Model/RCPerson.m; sourceTree = "<group>"; };
 		A4770C43168E6DE700C80827 /* SampleNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4770C47168E6DE700C80827 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A4770C49168E6DE700C80827 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +54,16 @@
 		A4770C5F168E6DE700C80827 /* RCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCViewController.h; sourceTree = "<group>"; };
 		A4770C60168E6DE700C80827 /* RCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCViewController.m; sourceTree = "<group>"; };
 		A4770C63168E6DE700C80827 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RCViewController.xib; sourceTree = "<group>"; };
+		A4770C6A168E6E3400C80827 /* RCNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCNetworkManager.h; path = Network/RCNetworkManager.h; sourceTree = "<group>"; };
+		A4770C6B168E6E3400C80827 /* RCNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCNetworkManager.m; path = Network/RCNetworkManager.m; sourceTree = "<group>"; };
+		A4770C6E168E6F8100C80827 /* RCNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCNetworkService.h; path = Network/RCNetworkService.h; sourceTree = "<group>"; };
+		A4770C6F168E6F8100C80827 /* RCNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCNetworkService.m; path = Network/RCNetworkService.m; sourceTree = "<group>"; };
+		A4770C71168E731900C80827 /* RCNetworkServiceAsyncHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCNetworkServiceAsyncHTTP.h; path = Network/RCNetworkServiceAsyncHTTP.h; sourceTree = "<group>"; };
+		A4770C72168E731900C80827 /* RCNetworkServiceAsyncHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCNetworkServiceAsyncHTTP.m; path = Network/RCNetworkServiceAsyncHTTP.m; sourceTree = "<group>"; };
+		A4770C74168EB16700C80827 /* RCNetworkServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCNetworkServiceFactory.h; path = Network/RCNetworkServiceFactory.h; sourceTree = "<group>"; };
+		A4770C75168EB16700C80827 /* RCNetworkServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCNetworkServiceFactory.m; path = Network/RCNetworkServiceFactory.m; sourceTree = "<group>"; };
+		A4770C7B168EB57D00C80827 /* RCUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCUtility.h; path = SampleNetwork/Utility/RCUtility.h; sourceTree = "<group>"; };
+		A4770C7C168EB57D00C80827 /* RCUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCUtility.m; path = SampleNetwork/Utility/RCUtility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +80,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A43F9F8B1699D312007F63F3 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A4770C7B168EB57D00C80827 /* RCUtility.h */,
+				A4770C7C168EB57D00C80827 /* RCUtility.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		A43F9F8C1699D33C007F63F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A43F9F8816995909007F63F3 /* RCPerson.h */,
+				A43F9F891699590A007F63F3 /* RCPerson.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		A4770C38168E6DE700C80827 = {
 			isa = PBXGroup;
 			children = (
+				A43F9F8B1699D312007F63F3 /* Utility */,
 				A4770C4D168E6DE700C80827 /* SampleNetwork */,
 				A4770C46168E6DE700C80827 /* Frameworks */,
 				A4770C44168E6DE700C80827 /* Products */,
@@ -88,6 +134,8 @@
 				A4770C5F168E6DE700C80827 /* RCViewController.h */,
 				A4770C60168E6DE700C80827 /* RCViewController.m */,
 				A4770C62168E6DE700C80827 /* RCViewController.xib */,
+				A43F9F8C1699D33C007F63F3 /* Model */,
+				A4770C6D168E6E3B00C80827 /* Network */,
 				A4770C4E168E6DE700C80827 /* Supporting Files */,
 			);
 			path = SampleNetwork;
@@ -105,6 +153,27 @@
 				A4770C5D168E6DE700C80827 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4770C6D168E6E3B00C80827 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A43F9F7A16941E34007F63F3 /* RCRunloopOperation.h */,
+				A43F9F7B16941E34007F63F3 /* RCRunloopOperation.m */,
+				A43F9F681692DEAF007F63F3 /* RCHttpOperation.h */,
+				A43F9F691692DEAF007F63F3 /* RCHttpOperation.m */,
+				A43F9F8516980EBE007F63F3 /* RCAPIOperation.h */,
+				A43F9F8616980EBF007F63F3 /* RCAPIOperation.m */,
+				A4770C74168EB16700C80827 /* RCNetworkServiceFactory.h */,
+				A4770C75168EB16700C80827 /* RCNetworkServiceFactory.m */,
+				A4770C6A168E6E3400C80827 /* RCNetworkManager.h */,
+				A4770C6B168E6E3400C80827 /* RCNetworkManager.m */,
+				A4770C6E168E6F8100C80827 /* RCNetworkService.h */,
+				A4770C6F168E6F8100C80827 /* RCNetworkService.m */,
+				A4770C71168E731900C80827 /* RCNetworkServiceAsyncHTTP.h */,
+				A4770C72168E731900C80827 /* RCNetworkServiceAsyncHTTP.m */,
+			);
+			name = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +246,15 @@
 				A4770C54168E6DE700C80827 /* main.m in Sources */,
 				A4770C58168E6DE700C80827 /* RCAppDelegate.m in Sources */,
 				A4770C61168E6DE700C80827 /* RCViewController.m in Sources */,
+				A4770C6C168E6E3500C80827 /* RCNetworkManager.m in Sources */,
+				A4770C70168E6F8200C80827 /* RCNetworkService.m in Sources */,
+				A4770C73168E731900C80827 /* RCNetworkServiceAsyncHTTP.m in Sources */,
+				A4770C76168EB16700C80827 /* RCNetworkServiceFactory.m in Sources */,
+				A4770C7D168EB57E00C80827 /* RCUtility.m in Sources */,
+				A43F9F6A1692DEAF007F63F3 /* RCHttpOperation.m in Sources */,
+				A43F9F7C16941E35007F63F3 /* RCRunloopOperation.m in Sources */,
+				A43F9F8716980EBF007F63F3 /* RCAPIOperation.m in Sources */,
+				A43F9F8A1699590B007F63F3 /* RCPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +369,7 @@
 				A4770C69168E6DE700C80827 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
